@@ -22,7 +22,8 @@ gpu_mem=192
 # Enable I2C, SPI, and audio
 dtparam=i2c_arm=on
 dtparam=spi=on
-dtparam=audio=on
+#dtparam=audio=on
+dtoverlay=hifiberry-dac
 
 # Enable drivers for the Raspberry Pi 7" Touchscreen
 #
